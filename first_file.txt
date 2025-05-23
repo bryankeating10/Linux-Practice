@@ -3,3 +3,5 @@ Line 2: DevOps is a set of practices that combines software development and IT o
 Line 3: Ubuntu is a popular open-source Linux distribution.
 Line 4: Shell scripting allows you to automate tasks in a Linux environment.
 Line 5: Git is a distributed version control system for tracking changes in source code.
+Line 6: HPC (High-Performance Computing) accelerates complex computations using powerful parallel processing systems.
+Line 7: Ansible automates the deployment of quant trading environments for efficient strategy testing
