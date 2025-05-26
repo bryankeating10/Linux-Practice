@@ -49,42 +49,54 @@
     <section>
         <h2>Setting up Version Control</h2>
         <ul>
-            <li>Initialize local repository</li>
-            <ul>
-                <li>Command: <code>git init</code></li>
-                <li>Command: <code>git clone {repository-url}</code></li>
-            </ul>
-            <li>Make commitable edits and commit</li>
-            <ul>
-                <li>Command: <code>git add {file}</code></li>
-                <li>Command: <code>git commit -m "{Commit message}"</code></li>
-            </ul>
-            <li>Identify user information</li>
-            <ul>
-                <li>Command: <code>git config --global user.name "{Your Name}"</code></li>
-                <li>Command: <code>git config --global user.email "{Your Email}"</code></li>
-            </ul>
-
+            <li>Initialize local repository
+                <ul style="list-style-type: circle;">
+                    <li>Cmd: <code>git init</code></li>
+                    <li>Cmd: <code>git clone {repository-url}</code></li>
+                </ul>
+            </li>
+            <li>Make commitable edits and commit
+                <ul style="list-style-type: circle;">
+                    <li>Cmd: <code>git add {file}</code></li>
+                    <li>Cmd: <code>git commit -m "{Commit message}"</code></li>
+                </ul>
+            </li>
+            <li>Identify author information if needed
+                <ul style="list-style-type: circle;">
+                    <li>Cmd: <code>git config --global user.name "{Your Name}"</code></li>
+                    <li>Cmd: <code>git config --global user.email "{Your Email}"</code></li>
+                </ul>
+            </li>
+            <li>Create a remote repo on GitHub and push (requires GitHub CLI)
+                <ul style="list-style-type: circle;">
+                    <li>Cmd: <code>gh repo create {repo-name} --public --source=. --remote=origin --push</code></li>
+                </ul>
+            </li>
         </ul>
     </section>
 
     <section>
         <h2>Viewing Files</h2>
         <ul>
-            <li>Placeholder item 1</li>
-            <li>Placeholder item 2</li>
-            <li>Placeholder item 3</li>
+            <li>Cmd: <code>ls</code> - List files in the current directory</li>
+            <li>Cmd: <code>cat {file}</code> - Display the contents of a file</li>
+            <li>Cmd: <code>head {file} -n 3</code> - Show the first 3 lines of a file</li>
+            <li>Cmd: <code>less {file}</code> - View the contents of a file one screen at a time</li>
         </ul>
     </section>
 
     <section>
         <h2>Editing Files</h2>
         <ul>
-            <li>Placeholder item 1</li>
-            <li>Placeholder item 2</li>
-            <li>Placeholder item 3</li>
+            <li>Cmd: <code>nano {file}</code> - Edit a file using the nano text editor</li>
+            <li>Cmd: <code>vim {file}</code> - Edit a file using the vim text editor</li>
+            <li>Cmd: <code>code {file}</code> - Edit a file using Visual Studio Code</li>
         </ul>
     </section>
+
+    <footer>
+        <p>&copy; May, 2025 Linux Notes</p>
+    </footer>
 
 </body>
 
