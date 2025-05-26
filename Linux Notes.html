@@ -70,6 +70,7 @@
             <li>Create a remote repo on GitHub and push (requires GitHub CLI)
                 <ul style="list-style-type: circle;">
                     <li>Cmd: <code>gh repo create {repo-name} --public --source=. --remote=origin --push</code></li>
+                    <li>Cmd: <code>git push --set-upstream origin master</code></li>
                 </ul>
             </li>
         </ul>
@@ -94,9 +95,32 @@
         </ul>
     </section>
 
-    <footer>
-        <p>&copy; May, 2025 Linux Notes</p>
-    </footer>
+    <section>
+        <h2>Directory Commands</h2>
+        <ul>
+            <li>Cmd: <code>cd {directory path}</code>: Change directory</li>
+            <li>Cmd: <code>cd -</code>: Change to the previous directory</li>
+            <li>Cmd: <code>pwd</code>: Print working directory</li>
+            <li>Cmd: <code>ls -l</code>: List files with detailed information</li>
+            <li>Cmd: <code>ls -a</code>: List all files, including hidden files</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>File Management</h2>
+        <ul>
+            <li>Cmd: <code>touch {file}</code> - Create a new empty file</li>
+            <li>Cmd: <code>cp {source} {destination}</code> - Copy a file</li>
+            <li>Cmd: <code>mv {source} {destination}</code> - Move or rename a file</li>
+            <li>Cmd: <code>rm {file}</code> - Remove a file</li>
+            <li>Cmd: <code>mkdir {directory}</code> - Create a new directory</li>
+            <li>Cmd: <code>rmdir {directory}</code> - Remove an empty directory</li>
+            <li>Cmd: <code>rm -r {directory}</code> - Remove a directory and its contents</li>
+        </ul>
+
+        <footer>
+            <p>&copy; May, 2025 Linux Notes</p>
+        </footer>
 
 </body>
 
