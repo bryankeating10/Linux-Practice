@@ -56,7 +56,7 @@
             </li>
             <li>Make commitable edits and commit
                 <ul style="list-style-type: circle;">
-                    <li>Cmd: <code>git add {file}</code></li>
+                    <li>Cmd: <code>touch {file}</code></li>
                     <li>Cmd: <code>git commit -m "{Commit message}"</code></li>
                 </ul>
             </li>
@@ -69,7 +69,6 @@
             <li>Create a remote repo on GitHub and push (requires GitHub CLI)
                 <ul style="list-style-type: circle;">
                     <li>Cmd: <code>gh repo create {repo-name} --public --source=. --remote=origin --push</code></li>
-                    <li>Cmd: <code>git push --set-upstream origin master</code></li>
                 </ul>
             </li>
         </ul>
@@ -91,6 +90,10 @@
             <li>Cmd: <code>nano {file}</code> - Edit a file using the nano text editor</li>
             <li>Cmd: <code>vim {file}</code> - Edit a file using the vim text editor</li>
             <li>Cmd: <code>code {file}</code> - Edit a file using Visual Studio Code</li>
+            <li>Cmd: <code>echo {text} > {file}</code> - Overwrite a file with text</li>
+            <li>Cmd: <code>echo {text} >> {file}</code> - Append text to a file</li>
+            <li>Cmd: <code>sed -i 's/{old}/{new}/g' {file}</code> - Replace text in a file</li>
+            </li>
         </ul>
     </section>
 
